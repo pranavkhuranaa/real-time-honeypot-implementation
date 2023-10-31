@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <style>
+            b{
+                color: red;
+            }
+            .outer-box{
+                border: 5px solid black;
+                text-align: center;
+                padding: 2%;
+                margin: 0 15%;
+                background-color:rgb(215, 255, 163);
+            }
+            .inner-box{
+                text-align: left;
+                margin-left: 25%;
+
+            }
+            body{
+                margin-top:1.5%;
+                font-size: 20px;
+                background-color: rgb(167, 0, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer-box">
+            
+            <b style="color: black; font-size: 25px;">INTRUDER ALERT!!!</b>
+        <div class="inner-box">
+            <br/><br/><b>IP Address:</b> {{data.ip}}
+            <br/><br/><b>City:</b> {{data.city}}
+            <br/><br/><b>Region:</b> {{data.region}}
+            <br/><br/><b>Country:</b> {{data.country}}
+            <br/><br/><b>Location Coordinates:</b> {{data.loc}}
+            <br/><br/><b>Organisation:</b> {{data.organisation}}
+            <br/><br/><b>Host Name:</b> abts-north-dynamic-226.141.176.122.airtelbroadband.in
+        </div>
+
+            <br/><br/> <p style="font-size: 20px;"><b style="color: black;">REAL-TIME IMAGE AND VIDEO CAPTURES</b>
+                                <br/><br/>The Face capture of the intruder have been mailed and sent on Telegram to the ADMIN:</p>
+            
+            <!-- <br/><img src="capture.png" width=30% height=25%> -->
+            <!-- <br/><img src="cid:pic" width=30% height=25% alt="Intruder Face Capture"/> -->
+            
+            <br/>This was just to inform you that someone was trying to hack into the organisation.
+
+            <p style="font-size: 20px;"><br/><br/>Thank you,<br/>
+            <b style="color: black;">HONEYPOT REAL-TIME IMPLEMENTATION</b></p>
+        </div>
+    </body>
+</html>
+
+
+

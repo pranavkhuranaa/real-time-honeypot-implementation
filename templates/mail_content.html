@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <style>
+            b{
+                color: red;
+            }
+            .outer-box{
+                border: 5px solid black;
+                text-align: center;
+                padding: 2%;
+                margin: 0 10%;
+                background-color:rgb(215, 255, 163);
+
+            }
+            .inner-box{
+                text-align: left;
+                margin-left: 10%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="outer-box">
+            
+            <b style="color: black; font-size: 15px;">There is an Intruder who is trying to hack in to the organization. Here are the details:</b>
+            <div class="inner-box">
+            <br/><br/><b>IP Address of the location</b> where intruder is present: {{ip}}
+
+            <br/><br/><b>City:</b> {{city}}
+
+            <br/><br/><b>Country:</b> {{country}}
+
+            <br/><br/><b>Location Coordinates:</b> {{location}}
+
+            <br/><br/><b>Organisation:</b> {{organisation}}
+
+            <br/><br/><b>Region:</b> {{region}}
+
+            <br/><br/><b>Host Name:</b> abts-north-dynamic-226.141.176.122.airtelbroadband.in
+        </div>
+
+            <br/><br/> <p style="font-size: 15px;"><b style="color: black;">REAL TIME Captures (Image and Video) of the hacker has been attached to this email.</b>
+                                <br/>The Face capture and System screenshots of the intruder can also be seen below: </p>
+            <!-- <br/><img src="/Users/pranavkhurana/Desktop/honeypot-project/ss_webcam/Intruder-RealTime-Capture.png" width=30% height=25%> -->
+   
+            <br/><img src="cid:pic" width=30% height=25% alt="Intruder Face Capture"/>
+            <br/><img src="cid:ss1" width=30% height=25% alt="System Screenshot-1"/>
+            <br/><img src="cid:ss2" width=30% height=25% alt="System Screenshot-2"/>
+            <br/><img src="cid:ss3" width=30% height=25% alt="System Screenshot-3"/>
+            <br/><br/><br/>This was just to inform you that someone was trying to hack into your organisation.
+
+            <p style="font-size: 15px;"><br/><br/>Thank you,<br/>
+            <b style="color: black;">HONEYPOT REAL-TIME IMPLEMENTATION</b></p>
+        </div>
+    </body>
+</html>
